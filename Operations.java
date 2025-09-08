@@ -28,8 +28,8 @@ class Operations {
       	System.out.println("Element Hello removed : "+ al);
       	
       	// 3. Updating value at index 0
-      	// al.set(0, "Rabbi");
+      	al.set(0, "Rabbi");
       
-        // System.out.println("List after updation of value : "+al);
+        System.out.println("List after updation of value : "+al);
     }
 }
