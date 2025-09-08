@@ -18,9 +18,9 @@ class Operations {
       	System.out.println("After Adding element at index 1 : "+ al);
       	
       	// 2. Removing Element using index
-      	// al.remove(0);
+      	al.remove(0);
       
-      	// System.out.println("Element removed from index 0 : "+ al);
+      	System.out.println("Element removed from index 0 : "+ al);
       	
       	// Removing Element using the value
       	// al.remove("Hello");
