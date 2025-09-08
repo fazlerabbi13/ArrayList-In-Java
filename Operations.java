@@ -13,23 +13,23 @@ class Operations {
       	System.out.println("Original List : "+al);
       	
       	// Adding Elements at the specific index
-        al.add(1, "Fazle");
+        // al.add(1, "Fazle");
 
-      	System.out.println("After Adding element at index 1 : "+ al);
+      	// System.out.println("After Adding element at index 1 : "+ al);
       	
       	// 2. Removing Element using index
-      	al.remove(0);
+      	// al.remove(0);
       
-      	System.out.println("Element removed from index 0 : "+ al);
+      	// System.out.println("Element removed from index 0 : "+ al);
       	
       	// Removing Element using the value
-      	al.remove("Hello");
+      	// al.remove("Hello");
       
-      	System.out.println("Element Hello removed : "+ al);
+      	// System.out.println("Element Hello removed : "+ al);
       	
       	// 3. Updating value at index 0
-      	al.set(0, "Rabbi");
+      	// al.set(0, "Rabbi");
       
-        System.out.println("List after updation of value : "+al);
+        // System.out.println("List after updation of value : "+al);
     }
 }
