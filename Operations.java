@@ -13,9 +13,9 @@ class Operations {
       	System.out.println("Original List : "+al);
       	
       	// Adding Elements at the specific index
-        // al.add(1, "Fazle");
+        al.add(1, "Fazle");
 
-      	// System.out.println("After Adding element at index 1 : "+ al);
+      	System.out.println("After Adding element at index 1 : "+ al);
       	
       	// 2. Removing Element using index
       	// al.remove(0);
