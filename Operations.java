@@ -23,9 +23,9 @@ class Operations {
       	System.out.println("Element removed from index 0 : "+ al);
       	
       	// Removing Element using the value
-      	// al.remove("Hello");
+      	al.remove("Hello");
       
-      	// System.out.println("Element Hello removed : "+ al);
+      	System.out.println("Element Hello removed : "+ al);
       	
       	// 3. Updating value at index 0
       	// al.set(0, "Rabbi");
