@@ -12,8 +12,8 @@ public class addAll {
 
         // Creating another ArrayList 
         // with elements to be added
-        // ArrayList<String> l2 = new ArrayList<>();
-        // l2.add("C");
+        ArrayList<String> l2 = new ArrayList<>();
+        l2.add("C");
 
         // Adding all elements 
         // from l2 to l1
