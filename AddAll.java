@@ -1,8 +1,7 @@
-// Java program to demonstrate 
-// adding all elements to the end of a list
+
 import java.util.ArrayList;
-public class AddAll {
-  
+
+public class addAll {
     public static void main(String[] args) {
       
         // Creating an ArrayList and 
@@ -13,8 +12,8 @@ public class AddAll {
 
         // Creating another ArrayList 
         // with elements to be added
-        ArrayList<String> l2 = new ArrayList<>();
-        l2.add("C");
+        // ArrayList<String> l2 = new ArrayList<>();
+        // l2.add("C");
 
         // Adding all elements 
         // from l2 to l1
