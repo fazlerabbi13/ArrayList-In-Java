@@ -17,7 +17,7 @@ public class Set {
             System.out.println("Before operation: " + n);
 
             // Attempt to replace an element at an invalid index
-            // n.set(7, 9);
+            n.set(7, 9);
         // } catch (IndexOutOfBoundsException e) {
           
         //     // Handle the exception
