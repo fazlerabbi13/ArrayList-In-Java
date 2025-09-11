@@ -1,7 +1,7 @@
 
 import java.util.ArrayList;
 
-public class addAll {
+public class AddAll {
     public static void main(String[] args) {
       
         // Creating an ArrayList and 
@@ -17,7 +17,7 @@ public class addAll {
 
         // Adding all elements 
         // from l2 to l1
-        // l1.addAll(l2);
-        // System.out.println("" + l1);
+        l1.addAll(l2);
+        System.out.println("" + l1);
     }
 }
