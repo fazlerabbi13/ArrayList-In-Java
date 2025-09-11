@@ -18,10 +18,10 @@ public class Set {
 
             // Attempt to replace an element at an invalid index
             n.set(7, 9);
-        // } catch (IndexOutOfBoundsException e) {
+        } catch (IndexOutOfBoundsException e) {
           
-        //     // Handle the exception
-        //     System.out.println("Exception: " + e);
-        // }
+            // Handle the exception
+            System.out.println("Exception: " + e);
+        }
     }
 }
