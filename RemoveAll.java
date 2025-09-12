@@ -15,15 +15,15 @@ public class RemoveAll {
 
         // Creating another ArrayList 
         // with elements to remove
-        // ArrayList<Integer> n2 = new ArrayList<>();
-        // n2.add(1);
-        // n2.add(2);
-        // n2.add(3);
+        ArrayList<Integer> n2 = new ArrayList<>();
+        n2.add(1);
+        n2.add(2);
+        n2.add(3);
 
         // Removing specified elements 
         // using removeAll()
-        // n1.removeAll(n2);
+        n1.removeAll(n2);
 
-        // System.out.println("List after removing specific elements: " + n1);
+        System.out.println("List after removing specific elements: " + n1);
     }
 }
