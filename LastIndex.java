@@ -14,15 +14,15 @@ public class LastIndex {
 
     // Overriding equals() to compare Person 
     // objects based on name and age
-    // @Override
-    // public boolean equals(Object o) {
-    //     if (this == o) 
-    //       return true;
-    //     if (o == null || getClass() != o.getClass()) 
-    //       return false;
-    //     LastIndex p = (LastIndex) o;
-    //     return a == p.a && n.equals(p.n);
-    // }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) 
+          return true;
+        if (o == null || getClass() != o.getClass()) 
+          return false;
+        LastIndex p = (LastIndex) o;
+        return a == p.a && n.equals(p.n);
+    }
 
 
 
@@ -32,9 +32,9 @@ public class LastIndex {
         ArrayList<LastIndex> p = new ArrayList<>();
 
         // Adding elements to the ArrayList
-        p.add(new LastIndex("Sweta", 24));
-        p.add(new LastIndex("Amiya", 27));
-        p.add(new LastIndex("Gudly", 23));
+        // p.add(new LastIndex("Sweta", 24));
+        // p.add(new LastIndex("Amiya", 27));
+        // p.add(new LastIndex("Gudly", 23));
 
         // Using lastIndexOf() to find the 
         // last index of a Person object
