@@ -32,9 +32,9 @@ public class LastIndex {
         ArrayList<LastIndex> p = new ArrayList<>();
 
         // Adding elements to the ArrayList
-        // p.add(new LastIndex("Sweta", 24));
-        // p.add(new LastIndex("Amiya", 27));
-        // p.add(new LastIndex("Gudly", 23));
+        p.add(new LastIndex("Sweta", 24));
+        p.add(new LastIndex("Amiya", 27));
+        p.add(new LastIndex("Gudly", 23));
 
         // Using lastIndexOf() to find the 
         // last index of a Person object
