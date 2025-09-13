@@ -38,8 +38,8 @@ public class LastIndex {
 
         // Using lastIndexOf() to find the 
         // last index of a Person object
-        LastIndex personToFind = new LastIndex("Sweta", 24);
-        int i = p.lastIndexOf(personToFind);
+        // LastIndex personToFind = new LastIndex("Sweta", 24);
+        // int i = p.lastIndexOf(personToFind);
 
         System.out.println("The last index of Sweta is: " + i);
  }
