@@ -13,8 +13,8 @@ public class TrimToSize {
 
         // print the size and 
         // capacity before trimming
-        // System.out.println("Size before trim: " + n.size());
-        // System.out.println("Capacity before trim: Excess capacity exists");
+        System.out.println("Size before trim: " + n.size());
+        System.out.println("Capacity before trim: Excess capacity exists");
 
         // Trimming to the size 
         // of the ArrayList
