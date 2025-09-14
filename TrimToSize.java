@@ -18,9 +18,9 @@ public class TrimToSize {
 
         // Trimming to the size 
         // of the ArrayList
-        // n.trimToSize();
+        n.trimToSize();
 
         // Printing the size after trimming
-        // System.out.println("Size after trim: " + n.size());
+        System.out.println("Size after trim: " + n.size());
     }
 }
