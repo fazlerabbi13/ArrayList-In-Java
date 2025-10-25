@@ -1,3 +1,6 @@
+
+import java.util.ArrayList;
+
 class Book{
     private String title;
     private String author;
@@ -35,6 +38,17 @@ class Book{
     public String toString(){
         return title + " by " + author + "(Available:" + availableCopy +")";
     }
+}
+
+class Library{
+    private ArrayList<Book> books = new ArrayList<>();
+
+    public void addBook(Book b){
+        books.add(b);
+        System.out.println(b.getTitle() + "add to library.");
+    }
+
+    
 }
 
 
