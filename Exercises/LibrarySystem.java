@@ -48,7 +48,38 @@ class Library{
         System.out.println(b.getTitle() + "add to library.");
     }
 
-    
+    public void borrowBook(String title){
+        for(Book b : books){
+            if(b.getTitle().equalsIgnoreCase(title)){
+                if(b.getAvailableCopy() > 0){
+                    b.decreaseCopy();
+                    System.out.println("you borrowed book: " + title);
+                }else{
+                    System.out.println("sorry " + title  + "is not available now");
+                }
+                return;
+            }
+        }
+        System.out.println("book not found in library: " + title);
+    }
+
+    // public void returnBook(String title){
+    //     for(Book b: books){
+    //         if(b.getTitle().equalsIgnoreCase(title)){
+    //             b.increaseCopy();
+    //             System.out.println("you returned: " + title);
+    //             return;
+    //         }
+    //     }
+    //     System.out.println("Book not found in librar: " + title);
+    // }
+
+    public void showAvailablebooks(){
+        System.out.println("availableBooks");
+        for(Book b : books){
+            System.out.println(b);
+        }
+    }
 }
 
 
