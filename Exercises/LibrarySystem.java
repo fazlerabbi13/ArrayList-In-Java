@@ -63,23 +63,24 @@ class Library{
         System.out.println("book not found in library: " + title);
     }
 
-    // public void returnBook(String title){
-    //     for(Book b: books){
-    //         if(b.getTitle().equalsIgnoreCase(title)){
-    //             b.increaseCopy();
-    //             System.out.println("you returned: " + title);
-    //             return;
-    //         }
+    public void returnBook(String title){
+        for(Book b: books){
+            if(b.getTitle().equalsIgnoreCase(title)){
+                b.increaseCopy();
+                System.out.println("you returned: " + title);
+                return;
+            }
+        }
+        System.out.println("Book not found in librar: " + title);
+    }
+
+    // public void showAvailablebooks(){
+    //     System.out.println("availableBooks");
+    //     for(Book b : books){
+    //         System.out.println(b);
     //     }
-    //     System.out.println("Book not found in librar: " + title);
     // }
 
-    public void showAvailablebooks(){
-        System.out.println("availableBooks");
-        for(Book b : books){
-            System.out.println(b);
-        }
-    }
 }
 
 
