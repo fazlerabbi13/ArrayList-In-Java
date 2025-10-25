@@ -9,6 +9,9 @@ class Book{
         this.availableCopy=availableCopy;
     }
 
+    public Book() {
+    }
+
     public String getTitle(){
         return title;
     }
@@ -23,6 +26,14 @@ class Book{
         }else{
             System.out.println("no copies available for: " +m);
         }
+    }
+
+    public void increaseCopy(){
+        availableCopy++;
+    }
+
+    public String toString(){
+        return title + " by " + author + "(Available:" + availableCopy +")";
     }
 }
 
