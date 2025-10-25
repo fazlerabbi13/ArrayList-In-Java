@@ -108,6 +108,6 @@ public class LibrarySystem {
         library.showAvailablebooks();
 
         library.returnBook("C++");
-        library.
+        library.showAvailablebooks();
     }
 }
