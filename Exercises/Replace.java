@@ -1,5 +1,3 @@
-package Exercises;
-
 import java.util.ArrayList;
 
 public class Replace {
