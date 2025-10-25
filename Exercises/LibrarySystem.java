@@ -95,6 +95,12 @@ public class LibrarySystem {
         Book b2 = new Book("Python", "Guido van Rossum", 2);
         Book b3 = new Book("C++", "Bjarne Stroustrup", 1);
 
-        
+        library.addBook(b1);
+        library.addBook(b2);
+        library.addBook(b3);
 
+        library.showAvailablebooks();
+
+
+    }
 }
