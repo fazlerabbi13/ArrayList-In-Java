@@ -27,7 +27,7 @@ class Book{
         if(availableCopy>0){
             availableCopy--;
         }else{
-            System.out.println("no copies available for: " +m);
+            System.out.println("no copies available for: " +title);
         }
     }
 
@@ -101,6 +101,13 @@ public class LibrarySystem {
 
         library.showAvailablebooks();
 
+        library.borrowBook("Java");
+        library.borrowBook("C++");
+        library.borrowBook("Python");
 
+        library.showAvailablebooks();
+
+        library.returnBook("C++");
+        library.
     }
 }
