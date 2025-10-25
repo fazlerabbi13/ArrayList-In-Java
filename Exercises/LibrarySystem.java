@@ -1,6 +1,3 @@
-
-
-
 class Book{
     private String title;
     private String author;
@@ -18,6 +15,14 @@ class Book{
 
     public int getAvailableCopy(){
         return availableCopy;
+    }
+
+    public void decreaseCopy(){
+        if(availableCopy>0){
+            availableCopy--;
+        }else{
+            System.out.println("no copies available for: " +m);
+        }
     }
 }
 
