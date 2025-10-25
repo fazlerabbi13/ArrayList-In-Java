@@ -74,12 +74,12 @@ class Library{
         System.out.println("Book not found in librar: " + title);
     }
 
-    // public void showAvailablebooks(){
-    //     System.out.println("availableBooks");
-    //     for(Book b : books){
-    //         System.out.println(b);
-    //     }
-    // }
+    public void showAvailablebooks(){
+        System.out.println("availableBooks");
+        for(Book b : books){
+            System.out.println(b);
+        }
+    }
 
 }
 
