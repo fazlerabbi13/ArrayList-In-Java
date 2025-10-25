@@ -88,5 +88,13 @@ class Library{
 
 
 public class LibrarySystem {
-    
+    public static void main(String[] args) {
+        Library library = new Library();
+
+        Book b1 = new Book("Java", "James Gosling", 3);
+        Book b2 = new Book("Python", "Guido van Rossum", 2);
+        Book b3 = new Book("C++", "Bjarne Stroustrup", 1);
+
+        
+
 }
